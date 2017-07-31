@@ -29,7 +29,7 @@ export const update = (book, shelf) =>
       ...headers,
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify({ shelf })
+    body: JSON.stringify({ 'shelf' : shelf, 'averageRating': book.averageRating })
   }).then(res => res.json())
 
 export const search = (query, maxResults) =>
