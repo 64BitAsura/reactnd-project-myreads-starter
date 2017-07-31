@@ -1,3 +1,3 @@
-use npm install for setting up dependencies and project
+use 'npm install' for setting up dependencies and project
 
-run project use npm start
+run project use 'npm start'
